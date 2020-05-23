@@ -1,0 +1,20 @@
+.text-right{
+    text-align: right;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.margin-div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#bg-header-login{
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+    font-weight: 500;
+    font-size: small;
+}
+body{
+    margin: 0px
+}
