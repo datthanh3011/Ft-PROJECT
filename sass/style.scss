@@ -23,9 +23,26 @@
 #bg-mg-logo{
     margin: 20px 0px;
     #txt-seach{
-        te
+        display: flex;
+        align-items: center;
         input{
-            display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 0px 0px 20px;
+        border-radius: 40px 0px 0px 40px;
+        border: 2px solid #FF5C00;
+        width: 500px;
+        }
+        #ico-search{
+            padding: 10px 20px;
+            margin: 10px 0px 0px 0px;
+            border-radius: 0px 40px 40px 0px;
+            border: 2px solid #3B3B3B;
+            background-color: #3B3B3B;
+            width: 50px;
+            height: 48px;
+            span{
+                font: normal normal normal 14px/1 FontAwesome;
+            }
         }
     }
 }

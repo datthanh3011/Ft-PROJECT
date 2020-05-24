@@ -37,7 +37,12 @@
 					<img src="img/logo.png">
 				</div>
 				<div class="col-xs-6 col-md-9 hiden-sm " id="txt-seach">
-					<input type="text" >
+					<input type="text" value placeholder = "Bạn muốn tìm gì">
+					<span id="ico-search">
+						<span>
+
+						</span>
+					</span>
 				</div>
 			</div>
 		</div>
