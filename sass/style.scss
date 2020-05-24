@@ -1,0 +1,31 @@
+.container{
+    padding: 0px !important;
+}
+#bg-header-login{
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+    div{
+        font-weight: 500;
+        font-size: medium;
+        span{
+            font-weight: 200 !important;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: row-reverse;
+            div{
+                margin: 0px 10px 0px 10px;
+                font-size: small;
+            }
+        }
+    }
+}
+#bg-mg-logo{
+    margin: 20px 0px;
+    #txt-seach{
+        te
+        input{
+            display: inline-block;
+        }
+    }
+}
