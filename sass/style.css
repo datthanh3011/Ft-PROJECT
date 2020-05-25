@@ -1,22 +1,26 @@
-.container {
+body {
+  font-family: "Open Sans","Helvetica","Arial","sans-serif";
+}
+
+body .container {
   padding: 0px !important;
 }
 
-#bg-header-login {
+body #bg-header-login {
   background-color: #F5F5F5;
   padding: 10px 0px 10px 0px;
 }
 
-#bg-header-login div {
+body #bg-header-login div {
   font-weight: 500;
   font-size: medium;
 }
 
-#bg-header-login div span {
+body #bg-header-login div span {
   font-weight: 200 !important;
 }
 
-#bg-header-login div .flex-container {
+body #bg-header-login div .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,16 +30,16 @@
           flex-direction: row-reverse;
 }
 
-#bg-header-login div .flex-container div {
+body #bg-header-login div .flex-container div {
   margin: 0px 10px 0px 10px;
   font-size: small;
 }
 
-#bg-mg-logo {
-  margin: 20px 0px;
+body #bg-mg-logo {
+  margin: 2em 0em 1em 0em;
 }
 
-#bg-mg-logo #txt-seach {
+body #bg-mg-logo .row #txt-seach {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +48,7 @@
           align-items: center;
 }
 
-#bg-mg-logo #txt-seach input {
+body #bg-mg-logo .row #txt-seach input {
   padding: 10px 20px;
   margin: 10px 0px 0px 20px;
   border-radius: 40px 0px 0px 40px;
@@ -52,7 +56,7 @@
   width: 500px;
 }
 
-#bg-mg-logo #txt-seach #ico-search {
+body #bg-mg-logo .row #txt-seach #ico-search {
   padding: 10px 20px;
   margin: 10px 0px 0px 0px;
   border-radius: 0px 40px 40px 0px;
@@ -60,9 +64,33 @@
   background-color: #3B3B3B;
   width: 50px;
   height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#bg-mg-logo #txt-seach #ico-search span {
-  font: normal normal normal 14px/1 FontAwesome;
+body #bg-mg-logo .row #txt-seach #ico-search .fa {
+  color: #ffffff;
+  margin: 50%;
+}
+
+body #bg-mg-logo #info-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0px;
+}
+
+body #bg-mg-logo #info-contact #img-phone {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
