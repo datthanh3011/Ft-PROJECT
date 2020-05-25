@@ -2,9 +2,11 @@
 
 <head>
     <meta charshet="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -33,11 +35,29 @@
 	<div id="bg-mg-logo">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-3 hiden-md">
+				<div class="col-xs-3 col-md-3">
 					<img src="img/logo.png">
 				</div>
-				<div class="col-xs-6 col-md-9 hiden-sm " id="txt-seach">
-					<input type="text" >
+				<div class="col-xs-6 col-md-6" id="txt-seach">
+					<input type="text" value placeholder = "Bạn muốn tìm gì">
+					<span id="ico-search">
+						<span class="fa fa-search">
+
+						</span>
+					</span>
+				</div>
+				<div class="col-xs-3 col-md-3" id="info-contact">
+					<div id="img-phone">
+						<img src="img/icon-contact.png">
+					</div>
+					<div>
+						<span class="row">
+							Hỗ Trợ: <span>1900900</span>
+						</span>
+						<span class="row">
+							Email: <span>email@email.com</span>
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>
