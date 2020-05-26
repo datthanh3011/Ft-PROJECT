@@ -77,6 +77,10 @@ body #bg-mg-logo .row #txt-seach #ico-search .fa {
   margin: 50%;
 }
 
+body #bg-mg-logo .row #txt-seach #ico-search .fa:hover {
+  color: orangered;
+}
+
 body #bg-mg-logo #info-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,5 +96,85 @@ body #bg-mg-logo #info-contact {
 
 body #bg-mg-logo #info-contact #img-phone {
   margin-right: 20px;
+}
+
+body .nav-side-bar {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  position: fixed;
+  left: 15px;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px 10px 0px 0px;
+}
+
+body .nav-side-bar header {
+  text-align: center;
+  height: 60px;
+  background-color: #f55c00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  padding-left: 1em;
+  position: relative;
+}
+
+body .nav-side-bar header .fa-bars {
+  margin-right: 5px;
+}
+
+body .nav-side-bar header .fa-caret-down {
+  position: absolute;
+  right: 15px;
+}
+
+body .nav-side-bar ul {
+  text-align: left;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+body .nav-side-bar ul li {
+  list-style: none;
+  border-bottom: 1px solid #BDBDBD;
+  height: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .nav-side-bar ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+body .nav-side-bar ul li a i {
+  margin: 0px 0px 0px 5px;
+  width: 35px;
+}
+
+body .nav-side-bar ul li a p {
+  margin: 0px;
+  font-weight: 500;
+}
+
+body .nav-side-bar ul li a p:hover {
+  color: #f55c00;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */

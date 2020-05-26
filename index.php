@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="sass/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
@@ -62,6 +62,40 @@
 			</div>
 		</div>
 	</div>
+
+
+<!-- code side bar-->
+	<div id="side-bar" class="nav-side-bar">
+		
+			<header>
+				<i class="fas fa-bars"></i>
+				<span>DANH MỤC SẢN PHẨM</span>
+				<i class="fas fa-caret-down"></i>
+			</header>
+		
+		<ul>
+			<li>
+				<a href=""><i class="fas fa-mobile "></i><p> Điện Thoại </p></a>	
+			</li>
+			<li>
+				<a href=""> <i class="fas fa-tshirt"></i> <p> Thời Trang </p> </a>
+			</li>
+			<li>
+				<a href=""><i class="fas fa-laptop"></i><p> Máy Tinh - Laptop </p></a>
+			</li>
+			<li>
+				<a href=""><i class="far fa-clock"></i><p> Đồng Hồ </p></a>
+			</li>
+			<li>
+				<a href=""><i class="far fa-heart"></i><p> Sức Khỏe </p></a>
+			</li>
+		</ul>	
+	</div>
+	
+	
+
+<!-- END-->
+
 </body>
 
 </html>
