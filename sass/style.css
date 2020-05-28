@@ -98,17 +98,41 @@ body #bg-mg-logo #info-contact #img-phone {
   margin-right: 20px;
 }
 
-body .nav-side-bar {
+@media only screen and (max-width: 1195px) {
+  body #bg-mg-logo img {
+    width: 90%;
+  }
+}
+
+body #menu-side-bar {
+  background-color: #F2F2F2;
+}
+
+body #menu-side-bar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+}
+
+body #menu-side-bar .container .container-menu-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar {
   width: 250px;
   height: auto;
   background-color: white;
-  position: fixed;
   left: 15px;
-  border: 1px solid #BDBDBD;
   border-radius: 10px 10px 0px 0px;
 }
 
-body .nav-side-bar header {
+body #menu-side-bar .container .container-menu-side .nav-side-bar header {
   text-align: center;
   height: 60px;
   background-color: #f55c00;
@@ -118,40 +142,50 @@ body .nav-side-bar header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 500;
   border-radius: 10px 10px 0px 0px;
   color: white;
   padding-left: 1em;
   position: relative;
 }
 
-body .nav-side-bar header .fa-bars {
+body #menu-side-bar .container .container-menu-side .nav-side-bar header .fa-bars {
   margin-right: 5px;
 }
 
-body .nav-side-bar header .fa-caret-down {
+body #menu-side-bar .container .container-menu-side .nav-side-bar header .fa-caret-down {
   position: absolute;
   right: 15px;
 }
 
-body .nav-side-bar ul {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar {
+  display: none;
+  position: absolute;
+  border: 1px solid #BDBDBD;
+  width: 250px;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul {
   text-align: left;
   padding: 0px 20px;
   margin: 0px;
+  display: block;
 }
 
-body .nav-side-bar ul li {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li {
   list-style: none;
   border-bottom: 1px solid #BDBDBD;
-  height: 2em;
+  height: 2.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
-body .nav-side-bar ul li a {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,21 +194,123 @@ body .nav-side-bar ul li a {
           align-items: center;
   text-decoration: none;
   color: black;
+  position: absolute;
+  width: 100%;
 }
 
-body .nav-side-bar ul li a i {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li a i {
   margin: 0px 0px 0px 5px;
   width: 35px;
 }
 
-body .nav-side-bar ul li a p {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li a p {
   margin: 0px;
   font-weight: 500;
 }
 
-body .nav-side-bar ul li a p:hover {
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li a .fa-chevron-right {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li .menu-chil {
+  position: absolute;
+  left: 228px;
+  width: 100%;
+  top: 0;
+  border: 1px solid #BDBDBD;
+  padding: 0px;
+  display: none;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li .menu-chil span {
+  margin: 30px 20px 5px 20px;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li .menu-chil li {
+  margin: 0px 30px;
+  border-bottom: none;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li:hover p, body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li:hover .fa-chevron-right {
   color: #f55c00;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li:hover .menu-chil {
+  display: block;
+}
+
+body #menu-side-bar .container .container-menu-side #side-bar:hover #display-side-bar {
+  display: block;
+  position: fixed;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul li {
+  margin: 0px 5px 0px 15px;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul li a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  font-weight: 500;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul li:hover a {
+  color: #f55c00;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+body #menu-side-bar .container #ico-shopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+body #menu-side-bar .container #ico-shopping a {
+  margin: 7px;
+  padding: 10px;
+  border: 1px solid #f55c00;
+  border-radius: 35px;
+}
+
+body #menu-side-bar .container #ico-shopping i {
+  color: black;
+}
+
+body #menu-side-bar .container #ico-shopping #ico-sync:hover {
+  background-color: #f55c00;
+}
+
+body #menu-side-bar .container #ico-shopping #shopping-cart:hover i {
+  color: #f55c00;
 }
 /*# sourceMappingURL=style.css.map */
