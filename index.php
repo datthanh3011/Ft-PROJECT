@@ -18,12 +18,12 @@
                     <div class ="row flex-container">
 						<div>
 							<span>
-								Đăng nhập
+								<a href="">Đăng nhập</a> 
 							</span>
 						</div>
 						<div>
 							<span>
-								Đăng kí
+								<a href="">Đăng kí</a> 
 							</span>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 					<img src="img/logo.png">
 				</div>
 				<div class="col-xs-6 col-md-6" id="txt-seach">
-					<input type="text" value placeholder = "Bạn muốn tìm gì">
+					<input type="text" value placeholder = "Bạn muốn tìm gì...">
 					<span id="ico-search">
 						<span class="fa fa-search">
 
@@ -65,36 +65,122 @@
 
 
 <!-- code side bar-->
-	<div id="side-bar" class="nav-side-bar">
-		
-			<header>
-				<i class="fas fa-bars"></i>
-				<span>DANH MỤC SẢN PHẨM</span>
-				<i class="fas fa-caret-down"></i>
-			</header>
-		
-		<ul>
-			<li>
-				<a href=""><i class="fas fa-mobile "></i><p> Điện Thoại </p></a>	
-			</li>
-			<li>
-				<a href=""> <i class="fas fa-tshirt"></i> <p> Thời Trang </p> </a>
-			</li>
-			<li>
-				<a href=""><i class="fas fa-laptop"></i><p> Máy Tinh - Laptop </p></a>
-			</li>
-			<li>
-				<a href=""><i class="far fa-clock"></i><p> Đồng Hồ </p></a>
-			</li>
-			<li>
-				<a href=""><i class="far fa-heart"></i><p> Sức Khỏe </p></a>
-			</li>
-		</ul>	
+	<div id="menu-side-bar">
+		<div class="container">
+			<div class="container-menu-side">
+				<div id="side-bar" class="nav-side-bar">
+					
+					<header>
+						<i class="fas fa-bars"></i>
+						<span>DANH MỤC SẢN PHẨM</span>
+						<i class="fas fa-caret-down"></i>
+					</header>
+					
+					<div id="display-side-bar">
+						<ul>
+							<li class="chil-open">
+								<a href=""><i class="fas fa-mobile "></i><p> Điện Thoại </p> <i class="fas fa-chevron-right"></i></a>	
+								<ul class="menu-chil">
+									<span>
+										Apple
+									</span>
+									<li>
+										<a href="">Iphone 5</a>
+									</li>
+									<li>
+										<a href="">Iphone 6</a>
+									</li>
+									<li>
+										<a href="">Iphone 7</a> 
+									</li>
+									<span>
+										Samsung
+									</span>
+									<li>
+										<a href="">Samsung S1s</a> 
+									</li>
+									<li>
+										<a href="">Samsung S4s</a> 
+									</li>
+									<li>
+										<a href="">Samsung S7s</a> 
+									</li>
+									<span>
+										Oppo 
+									</span>
+									<li>
+										<a href="">Oppo F1 Plus</a> 
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href=""> <i class="fas fa-tshirt"></i> <p> Thời Trang </p> </a>
+							</li>
+							<li>
+								<a href=""><i class="fas fa-laptop"></i><p> Máy Tinh - Laptop </p></a>
+							</li>
+							<li>
+								<a href=""><i class="far fa-clock"></i><p> Đồng Hồ </p></a>
+							</li>
+							<li>
+								<a href=""><i class="far fa-heart"></i><p> Sức Khỏe </p></a>
+							</li>
+						</ul>
+					</div>		
+				</div>
+				<div id="menu-home">
+					<ul>
+						<li class="static-position">
+							<a href="">TRANG CHỦ</a>
+						</li>
+						<li class ="static-position">
+							<a href="">SẢN PHẨM</a>
+							<div class="ico-position">
+								<img src="img\ico-hot.png">
+							</div>
+							<div class="drop-menu">
+								<div class="container">
+									<ul>
+										<li>
+											1
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="static-position">
+							<a href="">THƯƠNG HIỆU</a>
+							<div class="ico-position">
+								<img src="img\ico-new.png">
+							</div>
+						</li>
+						<li class="static-position">
+							<a href="">CÔNG NGHỆ</a> 
+						</li>
+						<li class="static-position">
+							<a href="">TIN TỨC</a> 
+						</li>
+						<li class="static-position">
+							<a href="">GIỚI THIỆU</a> 
+						</li>
+						<li class="static-position">
+							<a href="">LIÊN HỆ</a> 
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="ico-shopping">
+				<a href="" id="ico-sync"><i class="fas fa-sync"></i></a>
+				<a href="" id="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
+				<p class="choise-number">0</p>
+			</div>
+		</div>
 	</div>
 	
 	
+	
 
-<!-- END-->
+<!-- END code side bar-->
 
 </body>
 
