@@ -35,6 +35,16 @@ body #bg-header-login div .flex-container div {
   font-size: small;
 }
 
+body #bg-header-login div .flex-container span a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #000;
+}
+
+body #bg-header-login div .flex-container span a:hover {
+  color: #FF5C00;
+}
+
 body #bg-mg-logo {
   margin: 2em 0em 1em 0em;
 }
@@ -96,12 +106,6 @@ body #bg-mg-logo #info-contact {
 
 body #bg-mg-logo #info-contact #img-phone {
   margin-right: 20px;
-}
-
-@media only screen and (max-width: 1195px) {
-  body #bg-mg-logo img {
-    width: 90%;
-  }
 }
 
 body #menu-side-bar {
@@ -221,7 +225,9 @@ body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-
   top: 0;
   border: 1px solid #BDBDBD;
   padding: 0px;
-  display: none;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li .menu-chil span {
@@ -239,8 +245,14 @@ body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-
           transition-duration: 0.3s;
 }
 
-body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li:hover .menu-chil {
-  display: block;
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul .chil-open:hover .menu-chil {
+  opacity: 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul .chil-open a:hover {
+  color: #f55c00;
 }
 
 body #menu-side-bar .container .container-menu-side #side-bar:hover #display-side-bar {
@@ -268,21 +280,37 @@ body #menu-side-bar .container .container-menu-side #menu-home ul {
   margin: 0px;
 }
 
-body #menu-side-bar .container .container-menu-side #menu-home ul li {
+body #menu-side-bar .container .container-menu-side #menu-home ul .static-position {
   margin: 0px 5px 0px 15px;
+  position: static;
 }
 
-body #menu-side-bar .container .container-menu-side #menu-home ul li a {
+body #menu-side-bar .container .container-menu-side #menu-home ul .static-position a {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   color: black;
   font-weight: 500;
 }
 
-body #menu-side-bar .container .container-menu-side #menu-home ul li:hover a {
+body #menu-side-bar .container .container-menu-side #menu-home ul .static-position:hover a {
   color: #f55c00;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul .ico-position {
+  position: relative;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul .ico-position img {
+  position: absolute;
+  top: -20;
+  right: -7;
+}
+
+body #menu-side-bar .container .container-menu-side #menu-home ul .ico-position .drop-menu {
+  position: relative;
+  width: 1000px;
 }
 
 body #menu-side-bar .container #ico-shopping {
@@ -293,6 +321,7 @@ body #menu-side-bar .container #ico-shopping {
       -ms-flex-align: center;
           align-items: center;
   font-size: 20px;
+  position: relative;
 }
 
 body #menu-side-bar .container #ico-shopping a {
@@ -312,5 +341,27 @@ body #menu-side-bar .container #ico-shopping #ico-sync:hover {
 
 body #menu-side-bar .container #ico-shopping #shopping-cart:hover i {
   color: #f55c00;
+}
+
+body #menu-side-bar .container #ico-shopping .choise-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0px 6px;
+  color: #ffffff;
+  border: 1px solid #f55c00;
+  background-color: #f55c00;
+  border-radius: px;
+  font-size: 13px;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 1195px) {
+  #bg-mg-logo img {
+    width: 90%;
+  }
+  #info-contact {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
