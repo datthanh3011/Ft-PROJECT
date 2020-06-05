@@ -81,6 +81,7 @@ body{
             display: flex;
             justify-content: space-between;
             font-size: 14px;
+            position: relative;
             .container-menu-side{
                 display: flex;
                 .nav-side-bar{
@@ -188,7 +189,7 @@ body{
                 }
                 #side-bar:hover #display-side-bar{
                     display: block;
-                    position: fixed;
+                    position: absolute;
                     transition-duration: 0.25s;
                 }
                 #menu-home{
@@ -201,15 +202,160 @@ body{
                         margin: 0px;
                         .static-position{
                             margin: 0px 5px 0px 15px;
-                            position: static;
-                            a{
+                            .static-position-a{
                                 text-decoration-line: none;
                                 color: black;
                                 font-weight: 500;
                             }
+                            
+                            .drop-menu-produce{
+                                position: absolute; 
+                                width: 1000px;
+                                left: 0;
+                                top: 59;
+                                width: 100%;
+                                height: 100%;
+                                transition: 0.5s;
+                                opacity: 0%;
+                                visibility: hidden;
+                                border-top: none;
+                                        border-bottom: 5px solid #f2f2f2;
+                                        box-shadow: 0 0 25px -5px;
+                                        padding: 15px;
+                                        height: 350;
+                                .drop-menu-detail{
+                                    ul{
+                                        display: flex ;
+                                        flex-wrap: wrap;
+                                        
+                                        .menu-field{
+                                            width: 200px;
+                                            height: 40px;
+                                            margin-right: 15px;
+                                            margin-bottom: 15px;
+                                            span{
+                                                a{
+                                                    text-decoration: none;
+                                                    color: #7d7d7d;
+                                                    font-size: 14px;
+                                                    font-weight: 550;
+                                                    transition: 0.2S;
+                                                }
+                                            }
+                                            span:hover{
+                                                a{
+                                                    color: #f55c00;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .baner-menu-produce{
+                                    display: flex;
+                                    .col-xs-6, .col-md-6{
+                                        padding-left: 0px !important;
+                                    }
+                                }
+                            }
+                            .drop-menu-trademark{
+                                position: absolute;
+                                box-shadow: 0 0 25px -5px #333;
+                                width: 100%;
+                                top: 60;
+                                left: 15;
+                                padding-bottom: 20px;
+                                visibility: hidden;
+                                opacity: 0%;
+                                transition: 0.5s;
+                                .trademark-feild{
+                                    .header-ul{
+                                        border-bottom: 1px solid #e0e0e0;
+                                        width: 100%;
+                                        line-height: 30px;
+                                        display: block;
+                                        margin: 20px 0px;
+                                        a{
+                                            font-weight: 700;;
+                                        }
+                                    }
+                                }  
+                                .trademark-feild:hover{
+                                    .header-ul{
+                                        a{
+                                            color: #FF5C00;
+                                        }
+                                    }
+                                }
+                                a{
+                                    text-decoration: none;
+                                    color: #7d7d7d;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                }
+                                .hot-produce{
+                                    text-decoration: none;
+                                    color: #333 !important;
+                                }
+                                ul{
+                                    display: block;
+                                    
+                                    li{
+                                        height: 35px;
+                                        transition: 0.3s;
+                                    }
+                                    li:hover{
+                                        a{
+                                            color: #f55c00;
+                                        }
+                                    }
+                                }
+                            }
+                            .drop-menu-tech{
+                                position: absolute;
+                                box-shadow: 0 0 8px -5px;
+                                top: 60;
+                                width: 200px;
+                                padding: 10px 15px;
+                                visibility: hidden;
+                                opacity: 0%;
+                                transition: 0.5s;
+                                ul{
+                                    display: block;
+                                    li{
+                                        margin-bottom: 10px;
+                                        a{
+                                            text-decoration: none;
+                                            color: #7d7d7d;
+                                            font-size: 16px;
+                                            transition: 0.3s;
+                                        }
+                                    }
+                                    li:hover{
+                                        a{
+                                            color: #f55c00;
+                                        }
+                                    }
+                                }
+                            }
                         }
+                        .static-position:hover {
+                            .drop-menu-produce{
+                                opacity: 100%;
+                                visibility: visible;
+                                position: absolute;
+                            }
+                            .drop-menu-trademark{
+                                visibility: visible;
+                                opacity: 100%;
+                            }
+                            .drop-menu-tech{
+                                visibility: visible;
+                                opacity: 100%;
+                            }
+                        }    
+                    
                         .static-position:hover{
-                            a{
+                            .static-position-a{
                                 color: #f55c00;
                                 transition-duration: 0.3s;
                             }
@@ -218,12 +364,8 @@ body{
                             position: relative;
                             img{
                                 position: absolute;
-                                top: -20;
+                                top: -40;
                                 right: -7;
-                            }
-                            .drop-menu{
-                                position: relative; 
-                                width: 1000px;
                             }
                         }
                     }
