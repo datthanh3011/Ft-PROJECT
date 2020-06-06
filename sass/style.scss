@@ -115,6 +115,7 @@ body{
                         position: absolute;
                         border: 1px solid #BDBDBD ;
                         width: 250px;
+                        background-color: #ffffff;
                         ul{
                             text-align: left;
                             padding: 0px 20px;
@@ -149,6 +150,7 @@ body{
                                     }
                                 }
                                 .menu-chil{
+                                    background-color: #ffffff;
                                     position: absolute;
                                     left: 228px;
                                     width: 100%;
@@ -209,6 +211,7 @@ body{
                             }
                             
                             .drop-menu-produce{
+                                background-color: #ffffff;
                                 position: absolute; 
                                 width: 1000px;
                                 left: 0;
@@ -259,6 +262,7 @@ body{
                             }
                             .drop-menu-trademark{
                                 position: absolute;
+                                background-color: #ffffff;
                                 box-shadow: 0 0 25px -5px #333;
                                 width: 100%;
                                 top: 60;
@@ -311,6 +315,7 @@ body{
                                 }
                             }
                             .drop-menu-tech{
+                                background-color: #ffffff;
                                 position: absolute;
                                 box-shadow: 0 0 8px -5px;
                                 top: 60;
@@ -402,12 +407,47 @@ body{
                     color: #ffffff;
                     border: 1px solid #f55c00;
                     background-color: #f55c00 ;
-                    border-radius: px;
                     font-size: 13px;
                     border-radius: 25px;
                 } 
             }
         }     
+    }
+    .wrapper-slider{
+        position: relative;
+        .item{
+            display: none;
+            a{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .active{
+            display: block;
+        }
+        #btn-sliders{
+            display: flex;
+            position: absolute;
+            bottom: 50;
+            left: 250;
+            .btn-slider{
+                border: 1px solid #ffffff;
+                background-color: #A8A8A8;
+                padding: 5px;
+                margin: 3px;
+                width: 5;
+                border-radius: 25px;
+            }
+            .btn-active{
+                border: 1px solid #ffffff;
+                background-color: #f55c00;
+                padding: 5px;
+                margin: 3px;
+                width: 30px ;
+                border-radius: 25px;
+            }
+        }
     }
 }
 

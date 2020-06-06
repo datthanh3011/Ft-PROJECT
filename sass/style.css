@@ -168,6 +168,7 @@ body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-
   position: absolute;
   border: 1px solid #BDBDBD;
   width: 250px;
+  background-color: #ffffff;
 }
 
 body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul {
@@ -220,6 +221,7 @@ body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-
 }
 
 body #menu-side-bar .container .container-menu-side .nav-side-bar #display-side-bar ul li .menu-chil {
+  background-color: #ffffff;
   position: absolute;
   left: 228px;
   width: 100%;
@@ -293,6 +295,7 @@ body #menu-side-bar .container .container-menu-side #menu-home ul .static-positi
 }
 
 body #menu-side-bar .container .container-menu-side #menu-home ul .static-position .drop-menu-produce {
+  background-color: #ffffff;
   position: absolute;
   width: 1000px;
   left: 0;
@@ -351,6 +354,7 @@ body #menu-side-bar .container .container-menu-side #menu-home ul .static-positi
 
 body #menu-side-bar .container .container-menu-side #menu-home ul .static-position .drop-menu-trademark {
   position: absolute;
+  background-color: #ffffff;
   -webkit-box-shadow: 0 0 25px -5px #333;
           box-shadow: 0 0 25px -5px #333;
   width: 100%;
@@ -406,6 +410,7 @@ body #menu-side-bar .container .container-menu-side #menu-home ul .static-positi
 }
 
 body #menu-side-bar .container .container-menu-side #menu-home ul .static-position .drop-menu-tech {
+  background-color: #ffffff;
   position: absolute;
   -webkit-box-shadow: 0 0 8px -5px;
           box-shadow: 0 0 8px -5px;
@@ -508,8 +513,50 @@ body #menu-side-bar .container #ico-shopping .choise-number {
   color: #ffffff;
   border: 1px solid #f55c00;
   background-color: #f55c00;
-  border-radius: px;
   font-size: 13px;
+  border-radius: 25px;
+}
+
+body .wrapper-slider {
+  position: relative;
+}
+
+body .wrapper-slider .item {
+  display: none;
+}
+
+body .wrapper-slider .item a img {
+  width: 100%;
+}
+
+body .wrapper-slider .active {
+  display: block;
+}
+
+body .wrapper-slider #btn-sliders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 50;
+  left: 250;
+}
+
+body .wrapper-slider #btn-sliders .btn-slider {
+  border: 1px solid #ffffff;
+  background-color: #A8A8A8;
+  padding: 5px;
+  margin: 3px;
+  width: 5;
+  border-radius: 25px;
+}
+
+body .wrapper-slider #btn-sliders .btn-active {
+  border: 1px solid #ffffff;
+  background-color: #f55c00;
+  padding: 5px;
+  margin: 3px;
+  width: 30px;
   border-radius: 25px;
 }
 

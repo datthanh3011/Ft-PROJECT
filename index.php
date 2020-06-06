@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
 	<body>
@@ -316,7 +318,7 @@
 										</div>
 									</div>
 									<div class="col-xs-3 col-md-3">
-										<div>
+										<div class="trademark-feild">
 											<span class="header-ul">
 												<a href="" class="hot-produce">SẢN PHẨM HOT</a>
 											</span>
@@ -374,12 +376,41 @@
 				</div>
 			</div>
 		</div>
-		
-		
-		
 
 	<!-- END code side bar-->
 
-	</body>
+	<!-- beign code wrapper slider -->
 
+		<div class ="wrapper-slider">
+			<div class="item">
+				<a href="">
+					<img src="img\slide-img-1.jpg" alt="">
+				</a>
+			</div>
+			<div class="item active">
+				<a href="">
+					<img src="img\slide-img-2.jpg" alt="">
+				</a>
+			</div>
+			<div class="item">
+				<a href="">
+					<img src="img\slide-img-3.jpg" alt="">
+				</a>
+			</div>
+			<div id="btn-sliders">
+				<div class="btn-slider">
+
+				</div>
+				<div class="btn-slider">
+
+				</div>
+				<div class="btn-slider btn-active">
+
+				</div>
+			</div>
+		</div>
+
+	<!-- END code wrapper-->
+
+	</body>
 </html>
