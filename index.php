@@ -382,12 +382,12 @@
 	<!-- beign code wrapper slider -->
 
 		<div class ="wrapper-slider">
-			<div class="item">
+			<div class="item active">
 				<a href="">
 					<img src="img\slide-img-1.jpg" alt="">
 				</a>
 			</div>
-			<div class="item active">
+			<div class="item">
 				<a href="">
 					<img src="img\slide-img-2.jpg" alt="">
 				</a>
@@ -398,13 +398,13 @@
 				</a>
 			</div>
 			<div id="btn-sliders">
-				<div class="btn-slider">
-
-				</div>
-				<div class="btn-slider">
-
-				</div>
 				<div class="btn-slider btn-active">
+
+				</div>
+				<div class="btn-slider">
+
+				</div>
+				<div class="btn-slider">
 
 				</div>
 			</div>
@@ -412,5 +412,6 @@
 
 	<!-- END code wrapper-->
 
+	
 	</body>
 </html>

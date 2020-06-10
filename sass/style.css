@@ -110,6 +110,8 @@ body #bg-mg-logo #info-contact #img-phone {
 
 body #menu-side-bar {
   background-color: #F2F2F2;
+  -webkit-box-shadow: 0px 10px 30px 4px #b1abab;
+          box-shadow: 0px 10px 30px 4px #b1abab;
 }
 
 body #menu-side-bar .container {
@@ -127,6 +129,7 @@ body #menu-side-bar .container .container-menu-side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 1;
 }
 
 body #menu-side-bar .container .container-menu-side .nav-side-bar {
@@ -522,7 +525,8 @@ body .wrapper-slider {
 }
 
 body .wrapper-slider .item {
-  display: none;
+  position: absolute;
+  visibility: hidden;
 }
 
 body .wrapper-slider .item a img {
@@ -530,7 +534,73 @@ body .wrapper-slider .item a img {
 }
 
 body .wrapper-slider .active {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: -1;
+}
+
+body .wrapper-slider .in-left {
+  -webkit-animation: in-left 1s forwards;
+          animation: in-left 1s forwards;
+}
+
+@-webkit-keyframes in-left {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+body .wrapper-slider .out-right {
+  -webkit-animation: out-right 1s forwards;
+          animation: out-right 1s forwards;
+}
+
+@-webkit-keyframes out-right {
+  from {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+body .wrapper-slider .in-right {
+  -webkit-animation: in-right 1s forwards;
+          animation: in-right 1s forwards;
+}
+
+@-webkit-keyframes in-right {
+  from {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+body .wrapper-slider .out-left {
+  -webkit-animation: out-left 1s forwards;
+          animation: out-left 1s forwards;
+}
+
+@-webkit-keyframes out-left {
+  from {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
 }
 
 body .wrapper-slider #btn-sliders {
@@ -538,7 +608,7 @@ body .wrapper-slider #btn-sliders {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  bottom: 50;
+  bottom: -300;
   left: 250;
 }
 
