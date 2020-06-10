@@ -37,16 +37,8 @@ $(document).ready(function(){
                 $(this).removeClass('btn-active');
             
         });
-        //$('.item').each(function(){
-
-                //$(this).removeClass('active').removeClass('in-left');
-
-        //});
         
         $(this).addClass('btn-active');
-        
-        //$('.item:nth-child('+position_btn_old+')').addClass('out-right').removeClass('in-left');
-        //$('.item:nth-child('+position_btn_now+')').addClass('active').addClass('in-left');
         
         if (position_click>position_btn_now) {
             $('.active').addClass('out-right').one('webkitAnimationEnd', function(){
