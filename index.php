@@ -12,7 +12,7 @@
 <body>
 <div>
 	<p>
-		test code
+		18/06/2020
 	</p>
 </div>
     <div id="bg-header-login">
@@ -23,12 +23,12 @@
                     <div class ="row flex-container">
 						<div>
 							<span>
-								<a href="">Đăng nhập</a> 
+								<a href="login.php">Đăng nhập</a> 
 							</span>
 						</div>
 						<div>
 							<span>
-								<a href="">Đăng kí</a> 
+								<a href="register.php">Đăng kí</a> 
 							</span>
 						</div>
 					</div>
