@@ -46,15 +46,44 @@
             <!--placeholder chữ ẩn trong input -->
             <label for="name"><b>Name</b></label>
             <input type="text" name="Name" id="Name" placeholder="Name" required><br>
-            <label for="Email"><b>Email</b></label>
+        <!--<label for="Email"><b>Email</b></label>
             <input type="text" name="Email" id="Email" placeholder="Email" required><br>
             <label for="Phone"><b>Phone</b></label>
             <input type="text" name="Phone" id="Phone" placeholder="Phone" required><br>
+         -->    
             <label for="Username"><b>Username</b></label>
-            <input type="text" name="Username" id="Username" placeholder="Username" required><br>
-            <label for="psw"><b>Passoword</b></label>
-            <input type="text" name="password" id="pwd" placeholder="Password" required><br>
-            <button type="submit" id="button" name="submit">Submit</button>        
+            <input type="text" name="Username" id="Username"  placeholder="Username" required><br>   
+            <label for="psw"><b>Password</b></label>
+            <input type="text" name="password" id="password" placeholder="Password" required><br>
+            <button type="submit" name="btn_insert" id="btn_insert" >Submit</button>        
         </div>
     </form> 
 </html>     
+<?php
+// khai báo biến
+$localhost = "localhost";
+$username="root";
+$password="";
+$database="revo";
+// hàm kết nối
+$connect =  mysqli_connect($localhost,$username,$password,$database);
+// kiểm tra hàm kết nối
+//if($connect->connect_error){
+    //die("connection error: " .$conn->connect_error);
+   // }
+   // echo "connect successfully";
+// thêm bảng revosec
+//name = secid, username =secname , pwd=secdesc
+if (isset($_POST["btn_insert"]))
+{
+    $sql = "CALL sp_secins('".$_POST["Name"]."','".$_POST["Username"]."','".$_POST["password"]."')";
+    if(mysqli_query($connect,$sql,MYSQLI_STORE_RESULT))
+    {
+        header("Location:register.php?inserted=1");
+    }
+}
+//if(isset($_GET["Inserted"]))
+//{
+ //   echo '<script>alert("data insert")</script>';
+//}
+?>
