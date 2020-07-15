@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.item:nth-child('+position_btn_now+')').addClass('active');
 
     var autoload = setInterval(function(){
-        tudongchay();
+        //tudongchay();
         
     ;},3000);
 
@@ -55,6 +55,29 @@ $(document).ready(function(){
             $('.item:nth-child('+position_click+')').addClass('active').addClass('in-right').one('webkitAnimationEnd',function(){
                 $(this).removeClass('in-right')
             });
+        }
+    });
+    
+    $("#btn-next").click(function(){
+        for (let i = $(".item-carousel").length; i > 0; i--) {
+            if (i>1) {
+                $("#item-"+i).html($("#item-"+(i-1)).html());
+                
+            }
+            if (i==1) {
+                $("#item-"+i).html($("#item-"+$(".item-carousel").length).html());
+            }
+        }
+    });
+    $("#btn-pre").click(function(){
+        for (let i = 1; i <= $(".item-carousel").length; i++) {
+            if (i<$(".item-carousel").length) {
+                $("#item-"+i).html($("#item-"+(i+1)).html());
+                
+            }
+            if (i==$(".item-carousel").length) {
+                $("#item-"+i).html($("#item-"+1).html());
+            }
         }
     });
 });

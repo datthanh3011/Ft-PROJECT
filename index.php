@@ -411,7 +411,765 @@
 		</div>
 
 	<!-- END code wrapper-->
+		<div class="body-footer">
+			<div class ="container">
+				<div class="service">
+					<div class="boder">
+						<span class="service-item">
+							<img src="img\icon-service-giao-hang.png" alt="">
+							<div>
+								<a href="">GIAO HÀNG</a>
+								<p>Miễn Phí</p>
+							</div>
+						</span>
+						<span class="service-item">
+							<img src="img\icon-service-thanh-toan.png" alt="">
+							<div>
+								<a href="">THANH TOÁN</a>
+								<p>Khi Nhận Hàng</p>
+							</div>
+						</span>
+						<span class="service-item">
+							<img src="img\icon-service-hoan-tra-tien.png" alt="">
+							<div>
+								<a href="">HOÀN TRẢ TIỀN</a>
+								<p>Trong 3 Ngày</p>
+							</div>
+						</span>
+						<span class="service-item">
+							<img src="img\icon-service-qua-tang.png" alt="">
+							<div>
+								<a href="">QUÀ TẶNG</a>
+								<p>Miễn Phí</p>
+							</div>
+						</span>
+						<span class="service-item">
+							<img src="img\icon-service-thanh-toan-bao-mat.png" alt="">
+							<div>
+								<a href="">THANH TOÁN</a>
+								<p>Bảo Mật</p>
+							</div>
+						</span>
+						<span class="service-item">
+							<img src="img\icon-service-ho-tro.png" alt="">
+							<div>
+								<a href="">HỔ TRỢ</a>
+								<p>24/7</p>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
 
-	
+<!-- billboard  -->
+			<div class="container billboard">
+				<div>
+					<img src="img\img-billboard-1.jpg" >
+				</div>
+				<div>
+					<img src="img\img-billboard-2.jpg" >
+				</div>
+				<div>
+					<img src="img\img-billboard-3.jpg" >
+				</div>
+			</div>
+
+
+			<div class="container household-appliances">
+				<div class="menu-household-appliances">
+					<header>
+						ĐỒ DÙNG GIA ĐÌNH
+					</header>
+					<div>
+						<p><a href="">Sơ mi</a></p>
+						<p><a href="">Công sở</a></p>
+						<p><a href="">Du lịch</a></p>
+						<p><a href="">Thể Thao</a></p>
+						<p><a href="">Túi xách</a></p>
+						<p><a href="">Kính mắt</a></p>
+						<p><a href="">Trang sức</a></p>
+					</div>
+					
+				</div>
+				<div class ="produces-household-appliances">
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+
+			<div class="container kitchen-utensils">
+				<div class="menu-kitchen-utensils">
+					<header>
+						ĐỒ DÙNG NHÀ BẾP
+					</header>
+					<div>
+						<p><a href="">Máy tính</a></p>
+						<p><a href="">Sạc pin</a></p>
+						<p><a href="">Bàn phím</a></p>
+						<p><a href="">Balo</a></p>
+						<p><a href="">Túi xách</a></p>
+						<p><a href="">Tai nghe</a></p>
+						<p><a href="">Phụ kiện khác</a></p>
+					</div>
+					
+				</div>
+				<div class ="produces-kitchen-utensils">
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="container sport">
+				<div class="menu-sport">
+					<header>	
+						THỂ THAO
+					</header>
+					<div>
+						<p><a href="">Quần áo thể thao</a></p>
+						<p><a href="">Giày thể thao</a></p>
+						<p><a href="">Vợt</a></p>
+						<p><a href="">Thể thao đồng đội</a></p>
+						<p><a href="">Xe đạp thể thao</a></p>
+						<p><a href="">Thể thao dã ngoại</a></p>
+						<p><a href="">Đồ chơi ngoài trời</a></p>
+					</div>
+					
+				</div>
+				<div class ="produces-sport">
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					<div class="produce-detail">
+						<img src="img\ullamco-venison-4.jpg" >
+						<span class = "name-produce">
+							Áo phông nữ
+						</span>
+						<p class="pice-produce">
+							150.000<u>đ</u>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="container highlights-promotion">
+				<div class="row">
+					<div class="col-xs-6 col-md-6 ">
+						<div class="highlights">
+							<div class="header">
+								<header>
+									NỔI BẬT
+								</header>
+							</div>
+							<div class="show-highlights">
+								<div class="col-md-6 col-xs-6 count-down">
+									<div class="number-countdown">
+										<div id="date-countdown" class="color-number">
+											00
+										</div>	
+											:
+										<div id="hour-countdown" class="color-number">
+											00
+										</div>
+											:
+										<div id="minute-countdown" class="color-number">
+											00
+										</div>
+											:
+										<div id="seconds-countdown" class="color-number">
+											00
+										</div>
+									</div>
+									<img src="img\img-tui-ngu.jpg" alt="">
+									<div id="name-produce-countdown"><a href="">Túi ngủ tiện dụng Sportslink</a></div>
+									<span id="price-produce-countdown">450.000<u>đ</u></span>
+								</div>
+								<div class="col-md-6 col-xs-6 intro-produce-box">
+									<div class="intro-produce" >
+										<img src="img\img-ao-xe-dap.jpg" alt="">
+										<div>
+											<a href="">Áo xe đạp Nalini</a>
+											<p>300.000<u>đ</u></p>
+										</div>
+									</div>
+									<div class="intro-produce" >
+										<img src="img\img-ao-xe-dap.jpg" alt="">
+										<div>
+											<a href="">Áo xe đạp Nalini</a>
+											<p>300.000<u>đ</u></p>
+										</div>
+									</div>
+									<div class="intro-produce" >
+										<img src="img\img-ao-xe-dap.jpg" alt="">
+										<div>
+											<a href="">Áo xe đạp Nalini</a>
+											<p>300.000<u>đ</u></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6 ">
+						<div class="promotion">
+							<div class="header">
+								<header>
+									KHUYẾN MẠI
+								</header>
+							</div>
+							<div class="show-promotion">
+								<div class="col-md-6 col-xs-6 count-down">
+									<div class="number-countdown">
+										<div id="date-countdown" class="color-number">
+											00
+										</div>	
+											:
+										<div id="hour-countdown" class="color-number">
+											00
+										</div>
+											:
+										<div id="minute-countdown" class="color-number">
+											00
+										</div>
+											:
+										<div id="seconds-countdown" class="color-number">
+											00
+										</div>
+									</div>
+									<img src="img\img-xe-can-bang.jpg" alt="">
+									<div id="name-produce-countdown"><a href="">Xe cân bằng 6.5 inch - AL</a></div>
+									<span id="price-produce-countdown">3.999.000<u>đ</u></span>
+								</div>
+								<div class="col-md-6 col-xs-6 intro-produce-box">
+									<div class="intro-produce" >
+										<img src="img\img-xe-can-bang.jpg" alt="">
+										<div>
+											<a href="">Xe cân bằng 6.5 inch - AL</a>
+											<p>3.999.000<u>đ</u></p>
+										</div>
+									</div>
+									<div class="intro-produce" >
+										<img src="img\img-ao-xe-dap.jpg" alt="">
+										<div>
+											<a href="">Áo xe đạp Nalini</a>
+											<p>300.000<u>đ</u></p>
+										</div>
+									</div>
+									<div class="intro-produce" >
+										<img src="img\img-ao-xe-dap.jpg" alt="">
+										<div>
+											<a href="">Áo xe đạp Nalini</a>
+											<p>300.000<u>đ</u></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<img src="img\long-banner.jpg" alt="" style="width: 100%" >
+			</div>
+			
+			<div class="container">
+				<div class="carousel">
+					<div id="item-1" class="item-carousel">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+					<div id="item-2" class="item-carousel">
+						<img src="img\carousel-item-2.png" alt="">
+					</div>
+					<div id="item-3" class="item-carousel">
+						<img src="img\carousel-item-3.png" alt="">
+					</div>
+					<div id="item-4" class="item-carousel">
+						<img src="img\carousel-item-4.png" alt="">
+					</div>
+					<div id="item-5" class="item-carousel">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+					<div id="item-6" class="item-carousel">
+						<img src="img\carousel-item-2.png" alt="">
+					</div>
+					<div id="item-7" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-3.png" alt="">
+					</div>
+					<div id="item-8" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-4.png" alt="">
+					</div>
+					<div id="item-9" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+				</div>
+				
+				<i id="btn-pre"  class="btn-carousel fas fa-chevron-left"></i>
+
+				<i id="btn-next" class="btn-carousel fas fa-chevron-right"></i>
+				
+			</div>
+			<div class="sign-up-email">
+				<div class="container">
+					<div class="lb-sign-up">
+						<p>
+							ĐĂNG KÝ ĐỂ NHẬN KHUYẾN MẠI
+						</p>
+					</div>
+					<div class="textbox-button">
+						<input class="textbox-email" type="text" placeholder="Email">
+						<button class="button-email" > ĐĂNG KÝ </button>
+					</div>
+					<div class="ico-soft">
+						<p> MẠNG XÃ HỘI </p>
+						<img src="img\ico-fb.png" alt="">
+						<img src="img\ico-gg.png" alt="">
+						<img src="img\ico-ytb.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="menu-support">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-2 col-md-2">
+							<header>
+								HƯỚNG DẪN
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Mua hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Thanh toán
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đổi trả
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Tích điểm
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								CHĂM SÓC
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Kiểm tra đơn hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Chính sách bảo hành
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Gửi trả hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Câu hỏi thường gặp
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								CHÍNH SÁCH
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Chính sách bảo hành
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Khách VIP
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Vận chuyển
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đổi trả hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								VỀ CHÚNG TÔI
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Hệ thống cửa hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Tư vấn sử dụng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đánh giá sản phẩm
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Liên hệ
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-md-4">
+							<header>
+								LIÊN HỆ
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-map-marker-alt"></i>
+									<span>
+										111 tòa nhà ABC thành phố xyz tỉnh thành Việt Nam
+									</span>
+								</div>
+								<div>
+									<i class="fas fa-phone-alt"></i>
+									<span>
+										09452xxxxxx-08343xxxxxx
+									</span>
+								</div>
+								<div>
+									<i class="fas fa-envelope"></i>
+									<span>
+										email@email.com
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-menu">
+				<div class="container">
+					<span>
+						<a href="">TRANG CHỦ</a>
+					</span>
+					<span>
+						<a href="">DANH MỤC SẢN PHẨM</a>
+					</span>
+					<span>
+						<a href="">ĐIỆN THOẠI</a>
+					</span>
+					<span>
+						<a href="">THIẾT BỊ CÔNG NGHỆ</a>
+					</span>
+					<span>
+						<a href="">PHỤ KIỆN</a>
+					</span>
+					<span>
+						<a href="">LAPTOP</a>
+					</span>
+					<span>
+						<a href="">VỀ CHÚNG TÔI</a>
+					</span>
+					<span>
+						<a href="">TRỢ GIÚP</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+
+
+
 	</body>
 </html>
