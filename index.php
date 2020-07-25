@@ -13,12 +13,6 @@
 
 	<body>
 
-<div>
-	<h1>
-		test
-	</h1>
-</div>
-
 		<div id="bg-header-login">
 			<div class="container">
 				<div class="row">
