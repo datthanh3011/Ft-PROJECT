@@ -1410,4 +1410,8 @@ body .body-footer .footer-menu .container span a:hover {
     top: 250px !important;
   }
 }
+
+#txtAjax p {
+  color: #f55c00;
+}
 /*# sourceMappingURL=style.css.map */

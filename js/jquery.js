@@ -81,3 +81,29 @@ $(document).ready(function(){
         }
     });
 });
+
+
+$(document).ready(function(){
+
+    $('#btnAjax').click(function(){
+        $.ajax({
+            url: './home.php',
+            success: function(result){
+                $('#page-home').html(result);
+            }
+        })
+        $(this).css("color","#f55c00");
+    })
+    $(".static-position").click(function(){
+        var name = $(this).find("a").attr("id");
+        var url = "./" + name +".php";
+        $.ajax({
+            url: url,
+            success: function(result){
+                $('#page-home').html(result);
+            }
+        })  
+        $(".static-position").find("a:first").css("color","#212529");
+        $(this).find("a").first().css("color","#f55c00");
+    })
+})
