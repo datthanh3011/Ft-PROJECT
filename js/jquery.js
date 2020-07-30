@@ -84,16 +84,6 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-
-    $('#btnAjax').click(function(){
-        $.ajax({
-            url: './home.php',
-            success: function(result){
-                $('#page-home').html(result);
-            }
-        })
-        $(this).css("color","#f55c00");
-    })
     $(".static-position").click(function(){
         var name = $(this).find("a").attr("id");
         var url = "./" + name +".php";

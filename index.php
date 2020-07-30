@@ -12,13 +12,6 @@
 	</head>
 
 	<body>
-		
-		<div id="testAjax">
-			<div id="txtAjax">
-
-			</div>
-			<input type="button" id="btnAjax" value="TEXT">
-		</div>
 
 		<div id="bg-header-login">
 			<div class="container">
@@ -191,7 +184,7 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">THƯƠNG HIỆU</a>
+								<a href="#" id="trademark" class="static-position-a">THƯƠNG HIỆU</a>
 								<div class="ico-position">
 									<img src="img\ico-new.png">
 								</div>
