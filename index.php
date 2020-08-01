@@ -340,7 +340,7 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">CÔNG NGHỆ</a>
+								<a href="#" id="technology" class="static-position-a">CÔNG NGHỆ</a>
 								<div class="drop-menu-tech">
 									<ul>
 										<li>
@@ -359,13 +359,13 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">TIN TỨC</a> 
+								<a href="#" id="news" class="static-position-a">TIN TỨC</a> 
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">GIỚI THIỆU</a> 
+								<a href="#" id="introduce" class="static-position-a">GIỚI THIỆU</a> 
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">LIÊN HỆ</a> 
+								<a href="#" id="contact" class="static-position-a">LIÊN HỆ</a> 
 							</li>
 						</ul>
 					</div>

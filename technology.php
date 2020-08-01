@@ -1,4 +1,3 @@
-
 <div class="container">
     <div class="row produce-detail-menu">
         <div class="col-xl-3 col-lg-3 col-md-3 produce-menu">
@@ -125,7 +124,7 @@
             <img src="img\bg-cate.jpg" alt="">
             <div id="detail-produce">
                 <div id="display-name">
-                    <h2>Thương hiệu</h2>
+                    <h2>Công nghệ</h2>
                 </div>
                 <div id="produce-area">
                     <div class="col-xl-3 col-lg-3 col-md-3">
