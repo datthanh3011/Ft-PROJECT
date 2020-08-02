@@ -371,8 +371,8 @@
 					</div>
 				</div>
 				<div id="ico-shopping">
-					<a href="" id="ico-sync"><i class="fas fa-sync"></i></a>
-					<a href="" id="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
+					<a href="#" id="ico-sync"><i class="fas fa-sync"></i></a>
+					<a href="#" id="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
 					<p class="choise-number">0</p>
 				</div>
 			</div>

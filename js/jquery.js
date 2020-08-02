@@ -80,6 +80,11 @@ $(document).ready(function(){
             }
         }
     });
+
+    $("#shopping-cart").click(function(){
+        $(this).attr('href','cart.php')
+    })
+
 });
 
 
