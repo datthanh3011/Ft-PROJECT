@@ -1,5 +1,6 @@
 <html>
 
+
 	<head>
 		<meta charshet="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +11,27 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
-
-	<body>
-
-		<div id="bg-header-login">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-6">Chào Mừng bạn Đến với ReVo!</div>
-					<div class="col-md-6 col-sm-6 col-xs-6 ">
-						<div class ="row flex-container">
-							<div>
-								<span>
-									<a href="">Đăng nhập</a> 
-								</span>
-							</div>
-							<div>
-								<span>
-									<a href="">Đăng kí</a> 
-								</span>
-							</div>
+<body>
+<div>
+	<p>
+		18/06/2020
+	</p>
+</div>
+    <div id="bg-header-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">Chào Mừng bạn Đến với ReVo!</div>
+                <div class="col-md-6 col-sm-6 col-xs-6 ">
+                    <div class ="row flex-container">
+						<div>
+							<span>
+								<a href="login.php">Đăng nhập</a> 
+							</span>
+						</div>
+						<div>
+							<span>
+								<a href="register.php">Đăng kí</a> 
+							</span>
 						</div>
 					</div>
 				</div>
@@ -534,6 +537,7 @@
 									<a href="">
 										Câu hỏi thường gặp
 									</a>
+
 								</div>
 							</div>
 						</div>

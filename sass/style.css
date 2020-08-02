@@ -538,7 +538,6 @@ body .wrapper-slider .item a img {
 body .wrapper-slider .active {
   opacity: 1;
   visibility: visible;
-  z-index: -1;
 }
 
 body .wrapper-slider .in-left {
