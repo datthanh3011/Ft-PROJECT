@@ -70,5 +70,5 @@ $dbname="revo";
         }
         echo "Connect successfully"
 
-// Teesst code
+// Teesst codeeeeeeeeeeeeeeee
 ?>
