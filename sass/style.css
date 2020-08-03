@@ -710,6 +710,7 @@ body .body-footer .household-appliances {
 body .body-footer .household-appliances .menu-household-appliances {
   position: relative;
   width: 210px;
+  top: -81;
 }
 
 body .body-footer .household-appliances .menu-household-appliances header {
@@ -795,6 +796,7 @@ body .body-footer .kitchen-utensils {
 body .body-footer .kitchen-utensils .menu-kitchen-utensils {
   width: 210px;
   position: relative;
+  top: -81;
 }
 
 body .body-footer .kitchen-utensils .menu-kitchen-utensils header {
@@ -880,6 +882,7 @@ body .body-footer .sport {
 body .body-footer .sport .menu-sport {
   width: 210px;
   position: relative;
+  top: -93;
 }
 
 body .body-footer .sport .menu-sport header {

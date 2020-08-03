@@ -1,18 +1,23 @@
 <html>
 
+
 	<head>
-		<meta charshet="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="sass/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
+			<meta charshet="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="sass/style.css">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
 	<body>
-
+		<div>
+			<p>
+				18/06/2020
+			</p>
+		</div>
 		<div id="bg-header-login">
 			<div class="container">
 				<div class="row">
@@ -21,12 +26,12 @@
 						<div class ="row flex-container">
 							<div>
 								<span>
-									<a href="">Đăng nhập</a> 
+									<a href="login.php">Đăng nhập</a> 
 								</span>
 							</div>
 							<div>
 								<span>
-									<a href="">Đăng kí</a> 
+									<a href="register.php">Đăng kí</a> 
 								</span>
 							</div>
 						</div>
