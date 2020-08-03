@@ -1,15 +1,23 @@
 <html>
 
+
 	<head>
-		<meta charshet="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="sass/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+			<meta charshet="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="sass/style.css">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
 	<body>
+		<div>
+			<p>
+				18/06/2020
+			</p>
+		</div>
 		<div id="bg-header-login">
 			<div class="container">
 				<div class="row">
@@ -18,12 +26,12 @@
 						<div class ="row flex-container">
 							<div>
 								<span>
-									<a href="">Đăng nhập</a> 
+									<a href="login.php">Đăng nhập</a> 
 								</span>
 							</div>
 							<div>
 								<span>
-									<a href="">Đăng kí</a> 
+									<a href="register.php">Đăng kí</a> 
 								</span>
 							</div>
 						</div>
@@ -131,10 +139,10 @@
 					<div id="menu-home">
 						<ul>
 							<li class="static-position">
-								<a href="" class="static-position-a">TRANG CHỦ</a>
+								<a href="#" id="home" class="static-position-a">TRANG CHỦ</a>
 							</li>
 							<li class ="static-position">
-								<a href="" class="static-position-a">SẢN PHẨM</a>
+								<a href="#" id="produce" class="static-position-a">SẢN PHẨM</a>
 								<div class="ico-position">
 									<img src="img\ico-hot.png">
 								</div>
@@ -181,7 +189,7 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">THƯƠNG HIỆU</a>
+								<a href="#" id="trademark" class="static-position-a">THƯƠNG HIỆU</a>
 								<div class="ico-position">
 									<img src="img\ico-new.png">
 								</div>
@@ -316,7 +324,7 @@
 										</div>
 									</div>
 									<div class="col-xs-3 col-md-3">
-										<div>
+										<div class="trademark-feild">
 											<span class="header-ul">
 												<a href="" class="hot-produce">SẢN PHẨM HOT</a>
 											</span>
@@ -337,7 +345,7 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">CÔNG NGHỆ</a>
+								<a href="#" id="technology" class="static-position-a">CÔNG NGHỆ</a>
 								<div class="drop-menu-tech">
 									<ul>
 										<li>
@@ -356,30 +364,306 @@
 								</div>
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">TIN TỨC</a> 
+								<a href="#" id="news" class="static-position-a">TIN TỨC</a> 
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">GIỚI THIỆU</a> 
+								<a href="#" id="introduce" class="static-position-a">GIỚI THIỆU</a> 
 							</li>
 							<li class="static-position">
-								<a href="" class="static-position-a">LIÊN HỆ</a> 
+								<a href="#" id="contact" class="static-position-a">LIÊN HỆ</a> 
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div id="ico-shopping">
-					<a href="" id="ico-sync"><i class="fas fa-sync"></i></a>
-					<a href="" id="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
+					<a href="#" id="ico-sync"><i class="fas fa-sync"></i></a>
+					<a href="#" id="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
 					<p class="choise-number">0</p>
 				</div>
 			</div>
 		</div>
-		
-		
-		
 
 	<!-- END code side bar-->
 
-	</body>
+	<!-- beign code wrapper slider -->
 
+		<div class ="wrapper-slider">
+			<div class="item active">
+				<a href="">
+					<img src="img\slide-img-1.jpg" alt="">
+				</a>
+			</div>
+			<div class="item">
+				<a href="">
+					<img src="img\slide-img-2.jpg" alt="">
+				</a>
+			</div>
+			<div class="item">
+				<a href="">
+					<img src="img\slide-img-3.jpg" alt="">
+				</a>
+			</div>
+			<div id="btn-sliders">
+				<div class="btn-slider btn-active">
+
+				</div>
+				<div class="btn-slider">
+
+				</div>
+				<div class="btn-slider">
+
+				</div>
+			</div>
+		</div>
+
+	<!-- END code wrapper-->
+		<div class="body-footer">
+			<div id="page-home">
+
+			</div>
+			
+			<div class="container">
+				<div class="carousel">
+					<div id="item-1" class="item-carousel">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+					<div id="item-2" class="item-carousel">
+						<img src="img\carousel-item-2.png" alt="">
+					</div>
+					<div id="item-3" class="item-carousel">
+						<img src="img\carousel-item-3.png" alt="">
+					</div>
+					<div id="item-4" class="item-carousel">
+						<img src="img\carousel-item-4.png" alt="">
+					</div>
+					<div id="item-5" class="item-carousel">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+					<div id="item-6" class="item-carousel">
+						<img src="img\carousel-item-2.png" alt="">
+					</div>
+					<div id="item-7" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-3.png" alt="">
+					</div>
+					<div id="item-8" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-4.png" alt="">
+					</div>
+					<div id="item-9" class="item-carousel" style="display: none">
+						<img src="img\carousel-item-1.png" alt="">
+					</div>
+				</div>
+				
+				<i id="btn-pre"  class="btn-carousel fas fa-chevron-left"></i>
+
+				<i id="btn-next" class="btn-carousel fas fa-chevron-right"></i>
+				
+			</div>
+			<div class="sign-up-email">
+				<div class="container">
+					<div class="lb-sign-up">
+						<p>
+							ĐĂNG KÝ ĐỂ NHẬN KHUYẾN MẠI
+						</p>
+					</div>
+					<div class="textbox-button">
+						<input class="textbox-email" type="text" placeholder="Email">
+						<button class="button-email" > ĐĂNG KÝ </button>
+					</div>
+					<div class="ico-soft">
+						<p> MẠNG XÃ HỘI </p>
+						<img src="img\ico-fb.png" alt="">
+						<img src="img\ico-gg.png" alt="">
+						<img src="img\ico-ytb.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="menu-support">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-2 col-md-2">
+							<header>
+								HƯỚNG DẪN
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Mua hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Thanh toán
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đổi trả
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Tích điểm
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								CHĂM SÓC
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Kiểm tra đơn hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Chính sách bảo hành
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Gửi trả hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Câu hỏi thường gặp
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								CHÍNH SÁCH
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Chính sách bảo hành
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Khách VIP
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Vận chuyển
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đổi trả hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-md-2">
+							<header>
+								VỀ CHÚNG TÔI
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Hệ thống cửa hàng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Tư vấn sử dụng
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Đánh giá sản phẩm
+									</a>
+								</div>
+								<div>
+									<i class="fas fa-chevron-right"></i>
+									<a href="">
+										Liên hệ
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4 col-md-4">
+							<header>
+								LIÊN HỆ
+							</header>
+							<div class="item-support">
+								<div>
+									<i class="fas fa-map-marker-alt"></i>
+									<span>
+										111 tòa nhà ABC thành phố xyz tỉnh thành Việt Nam
+									</span>
+								</div>
+								<div>
+									<i class="fas fa-phone-alt"></i>
+									<span>
+										09452xxxxxx-08343xxxxxx
+									</span>
+								</div>
+								<div>
+									<i class="fas fa-envelope"></i>
+									<span>
+										email@email.com
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-menu">
+				<div class="container">
+					<span>
+						<a href="">TRANG CHỦ</a>
+					</span>
+					<span>
+						<a href="">DANH MỤC SẢN PHẨM</a>
+					</span>
+					<span>
+						<a href="">ĐIỆN THOẠI</a>
+					</span>
+					<span>
+						<a href="">THIẾT BỊ CÔNG NGHỆ</a>
+					</span>
+					<span>
+						<a href="">PHỤ KIỆN</a>
+					</span>
+					<span>
+						<a href="">LAPTOP</a>
+					</span>
+					<span>
+						<a href="">VỀ CHÚNG TÔI</a>
+					</span>
+					<span>
+						<a href="">TRỢ GIÚP</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</body>
 </html>
