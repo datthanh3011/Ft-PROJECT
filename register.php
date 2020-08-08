@@ -4,12 +4,14 @@ include("function.php");
 ?> 
 <html>
     <head>
-        <meta charshet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-        <link rel="stylesheet" href="sass/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+                <meta charshet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="sass/style.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+                    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script type="text/javascript" src="js/jquery.js"></script>
     </head>
 
     <div id="bg-mg-logo" > 
@@ -43,26 +45,21 @@ include("function.php");
             </div>
         </div>
     </div>  
-    <form> 
-    <div>
+    <form id="register"> 
+        <div>
             <!--required không được bỏ  trống -->
             <!--type kiểu đinh dạng  trống -->
             <!--placeholder chữ ẩn trong input -->
-            <label for="name"><b>Name</b></label>
-            <input type="text" name="Name" id="Name" placeholder="Name" required><br>
-            <label for="Email"><b>Email</b></label>
-            <input type="text" name="Email" id="Email" placeholder="Email" required><br>
-            <label for="Phone"><b>Phone</b></label>
-            <input type="text" name="Phone" id="Phone" placeholder="Phone" required><br>
-            <label for="Username"><b>Username</b></label>
-            <input type="text" name="Username" id="Username" placeholder="Username" required><br>
-            <label for="psw"><b>Passoword</b></label>
-            <input type="text" name="password" id="pwd" placeholder="Password" required><br>
-            <button type="submit" id="btn-register" name="submit">Submit</button>        
+            <label id="lbl_hkdesc">Họ và Tên</label>
+            <input id="ip_hkdesc" placeholder="Họ và Tên" name="fullname">  <br>
+            <label id="lbl_dktdn">Tên đăng nhập</label>
+            <input id="ip_dktdn" placeholder="Tên đăng nhập" name="us"> <br>
+            <label id="lbl_dkmk">Mật khẩu</label>
+            <input id="ip_dkmk" placeholder="Mật khẩu" name="pw"> <br>
+            <!--<button type="submit" id="btn_dk">Đăng ký</button>-->
+            <input type="button" value="Nut" id="btn_dk" name="submit">
         </div>
     </form> 
-</html>    
+    <div id="test"></div>
 
-<?php
-conn_data();
-?>
+</html>    

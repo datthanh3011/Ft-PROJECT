@@ -113,4 +113,48 @@ $(document).ready(function(){
         $(".static-position").find("a:first").css("color","#212529");
         $(this).find("a").first().css("color","#f55c00");
     })
+
+/**hong-start*/
+    $(document).ready(function() {
+        //khai báo biến gán
+        var btn_dk = $("button[id='btn_dk']");          
+        var ip_dktdn = $("input[id='ip_dktdn']");
+        var ip_dkmk = $("input[id='ip_dkmk']");
+        var ip_dkdesc = $("input[id='ip_hkdesc']");
+        var data = $('form#register').serialize();
+        //type id
+        var userid= 1;
+        var secid= 3;
+        var Statustype = 3;      
+
+        // event when click button
+        $("input[id='btn_dk']").click(function () {
+            //console.log("1111111111111")
+            //if(ip_dktdn=' '){
+            //    alert("Vui lòng đền Tên đăng nhập")
+            //    return false
+            //}
+            //if(ip_dkmk=' '){
+            //    alert="Vui lòng đền Mật khẩu"
+            //    return false
+            //}
+            //if(ip_dkdesc=' '){
+            //    alert="Vui lòng đền Họ và Tên"
+            //    return false
+            //}
+            console.log('44444444444444444')
+            $.ajax({
+                type: 'GET',
+                url: 'solve.php',
+                data: $('form').serialize(),
+                success: function (data) {
+                  $("#test").html(data)
+                }
+              });
+        })
+
+
+    })
+/**hong-end */
+
 })

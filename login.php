@@ -58,8 +58,4 @@
         </div>
     </form> 
   
-</htm>
-<?php
-
-echo $_GET['password'];
-?>
+</html>

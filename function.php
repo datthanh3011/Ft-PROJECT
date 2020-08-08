@@ -13,5 +13,7 @@
             die("connection failed: " .$conn->connect_error);
         }
             echo "Connect successfully";
-    };        
+    };       
+    
+
 ?>
